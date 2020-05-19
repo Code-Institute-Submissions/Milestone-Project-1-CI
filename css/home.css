@@ -1,7 +1,8 @@
 html,
 body {
   font-family: "Anton";
-  background-image: url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+    url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,56 +11,46 @@ body {
   z-index: -1;
 }
 
-#overlayShadow {
-  opacity: 0.69;
-  background-color: black;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-}
-
-.nav-link{
+.nav-link {
   font-size: 1.4rem;
   font-weight: 400;
   color: crimson;
 }
 
-#navbarCollapse{
+#navbarCollapse {
   transform: translateX(75%);
 }
 
-.navbar-brand{
+.navbar-brand {
   color: lightgrey;
   font-size: 1.5rem;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: crimson;
 }
 
-.nav-item{
+.nav-item {
   margin-left: 5px;
   background-color: lightgrey;
   text-align: left;
   border-radius: 3em;
 }
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
   padding-left: 0.25em;
 }
 
-.inspiration-boxes-wrapper, .signup-button-wrapper{
-  margin-top:10em;
+.inspiration-boxes-wrapper,
+.signup-button-wrapper {
+  margin-top: 10em;
 }
 
 .navbar-toggler-icon {
   color: aliceblue;
 }
 
-.inspiration-box{
+.inspiration-box {
   margin: 2em;
   padding: 1em;
   background-color: crimson;
@@ -67,19 +58,18 @@ body {
   text-align: center;
 }
 
-
-.signup-button-wrapper{
+.signup-button-wrapper {
   margin: 1em auto;
 }
 
-.signup-button-wrapper a{
+.signup-button-wrapper a {
   padding: 1em;
   font-size: 1.5rem;
   background-color: crimson;
   border-style: none;
 }
 
-.signup-button-wrapper a:hover{
+.signup-button-wrapper a:hover {
   background-color: lightskyblue;
   border-style: none;
 }
