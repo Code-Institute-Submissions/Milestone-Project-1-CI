@@ -47,8 +47,14 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: aliceblue;
+  color: lightgray;
+  margin:0.5em 1.5em auto auto;
+
 }
+.navbar-toggler-icon:hover {
+  color: crimson;
+}
+
 
 #signUpForm {
   z-index: 1;

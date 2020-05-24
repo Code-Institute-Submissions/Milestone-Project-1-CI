@@ -17,10 +17,6 @@ body {
   color: crimson;
 }
 
-#navbarCollapse {
-  transform: translateX(75%);
-}
-
 .navbar-brand {
   color: lightgrey;
   font-size: 1.5rem;
@@ -33,12 +29,25 @@ body {
 .nav-item {
   margin-left: 5px;
   background-color: lightgrey;
-  text-align: left;
+  text-align: center;
   border-radius: 3em;
 }
 
 .navbar-nav .nav-link {
   padding-left: 0.25em;
+}
+@media screen and (max-width: 768px) {
+  ul{
+    text-align: center;
+    border-radius: 3em;
+    width: 32%;
+    margin-bottom: 1em;
+
+  }
+
+  .nav-item {
+    margin-bottom: 0.5em;
+}
 }
 
 .inspiration-boxes-wrapper,
@@ -47,7 +56,11 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: aliceblue;
+  color: lightgray;
+  margin-top: 0.5em;
+}
+.navbar-toggler-icon:hover {
+  color: crimson;
 }
 
 .inspiration-box {
