@@ -11,14 +11,12 @@ body {
   z-index: -1;
 }
 
+/* Navbar styling */
+
 .nav-link {
   font-size: 1.4rem;
   font-weight: 400;
   color: crimson;
-}
-
-#navbarCollapse {
-  transform: translateX(75%);
 }
 
 .navbar-brand {
@@ -33,7 +31,7 @@ body {
 .nav-item {
   margin-left: 5px;
   background-color: lightgrey;
-  text-align: left;
+  text-align: center;
   border-radius: 3em;
 }
 
@@ -41,20 +39,37 @@ body {
   padding-left: 0.25em;
 }
 
-.inspiration-boxes-wrapper,
-.signup-button-wrapper {
-  margin-top: 10em;
-}
-
 .navbar-toggler-icon {
   color: lightgray;
-  margin:0.5em 1.5em auto auto;
-
+  margin-top: 0.5em;
 }
 .navbar-toggler-icon:hover {
   color: crimson;
 }
 
+.inspiration-boxes-wrapper,
+.signup-button-wrapper {
+  margin-top: 10em;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 0.25em;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    text-align: center;
+    border-radius: 3em;
+    width: 32%;
+    margin-bottom: 1em;
+  }
+
+  .nav-item {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Form styling */
 
 #signUpForm {
   z-index: 1;
