@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Anton";
+  font-family: 'Comfortaa', cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
@@ -9,30 +9,45 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+  color: #c4e3f6;
 }
 
 /* Navbar styling */
+.backgroundNav {
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  background-image: linear-gradient(rgb(0,0,0,1), rgb(169,169,169,0.15));
+  z-index: 1;
+}
+.navbar{
+  padding-bottom:0;
+  padding-top:0;
+
+}
 
 .nav-link {
   font-size: 1.4rem;
   font-weight: 400;
-  color: crimson;
+  color: #c4e3f6;
 }
 
 .navbar-brand {
-  color: lightgrey;
+  color: #c4e3f6;
   font-size: 1.5rem;
+  font-family: 'Cinzel', serif;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .nav-link:hover {
   color: crimson;
 }
 
 .nav-item {
   margin-left: 5px;
-  background-color: lightgrey;
-  text-align: center;
+  /* background-color: crimson; */
+  text-align: right;
   border-radius: 3em;
+  font-weight: 500;
 }
 
 .navbar-nav .nav-link {
@@ -40,8 +55,13 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: lightgray;
+  color: #c4e3f6;
   margin-top: 0.5em;
+}
+
+.navbar-toggler{
+  padding-right: 0px;
+  margin-right: 0px;
 }
 .navbar-toggler-icon:hover {
   color: crimson;
@@ -62,10 +82,46 @@ body {
     border-radius: 3em;
     width: 32%;
     margin-bottom: 1em;
+
+
   }
 
   .nav-item {
     margin-bottom: 0.5em;
+  }
+  .nav-link{
+    font-size: 1em;
+  }
+}
+
+/* Schedule Info */
+
+.scheduleHead{
+
+  padding-bottom: 3.5em;
+  z-index: 1;
+}
+
+.head1{
+  font-size:3.5rem ;
+}
+
+.head2{
+  font-size:2rem ;
+}
+
+@media screen and (max-width: 768px) {
+  .scheduleHead{
+    text-align: center;
+
+    padding-right: 0em;
+    padding-left: 1em;
+  }
+  .head1{
+    font-size:2.5rem ;
+  }
+  .head2{
+    font-size:1.2rem ;
   }
 }
 
@@ -79,7 +135,7 @@ body {
 }
 .card-text {
   text-align: center;
-  background-color: lightgray;
+  background-color: crimson;
   line-height: 2em;
 }
 

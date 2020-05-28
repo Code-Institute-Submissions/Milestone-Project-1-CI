@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Cinzel", serif;
+  font-family: 'Comfortaa', cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
@@ -9,31 +9,45 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  position: relative;
+  color: #c4e3f6;
 }
 
 /* Navbar styling */
+.backgroundNav {
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  background-image: linear-gradient(rgb(0,0,0,1), rgb(169,169,169,0.15));
+  z-index: 1;
+}
+.navbar{
+  padding-bottom:0;
+  padding-top:0;
+
+}
 
 .nav-link {
   font-size: 1.4rem;
   font-weight: 400;
-  color: crimson;
+  color: #c4e3f6;
 }
 
 .navbar-brand {
-  color: lightgrey;
+  color: #c4e3f6;
   font-size: 1.5rem;
+  font-family: 'Cinzel', serif;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .nav-link:hover {
   color: crimson;
 }
 
 .nav-item {
   margin-left: 5px;
-  background-color: lightgrey;
-  text-align: center;
+  /* background-color: crimson; */
+  text-align: right;
   border-radius: 3em;
+  font-weight: 500;
 }
 
 .navbar-nav .nav-link {
@@ -41,11 +55,25 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: lightgray;
+  color: #c4e3f6;
   margin-top: 0.5em;
+}
+
+.navbar-toggler{
+  padding-right: 0px;
+  margin-right: 0px;
 }
 .navbar-toggler-icon:hover {
   color: crimson;
+}
+
+.inspiration-boxes-wrapper,
+.signup-button-wrapper {
+  margin-top: 10em;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 0.25em;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,18 +82,23 @@ body {
     border-radius: 3em;
     width: 32%;
     margin-bottom: 1em;
+
+
   }
 
   .nav-item {
     margin-bottom: 0.5em;
   }
+  .nav-link{
+    font-size: 1em;
+  }
 }
-
 
 #jumbotron {
 
-  background-color: #fa4848;
-  color: #cfe683;
+  /* background-color: #fa4848; */
+  background-image: linear-gradient(rgb(218, 42, 42, 1), rgba(196, 91, 91, 0.5));
+  color: #c4e3f6;
   text-align: center;
   margin-top: 25%;
   z-index: 1;
@@ -89,18 +122,16 @@ body {
 
 }
 
-/* .inspiration-boxes-wrapper,
-.signup-button-wrapper {
-  margin-top: 10em;
-} */
+
 .inspiration-box {
   margin: 2em;
-  /* padding: 1em; */
-  background-color: #fa4848;
+  /* background-color: #fa4848;
+  color: #cfe683; */
+  background-image: linear-gradient(rgb(218, 42, 42), rgba(196, 91, 91, 0.35));
+  color: #c4e3f6;
   border-radius: 3.5em;
   text-align: center;
-  color: #cfe683;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   height: 120px;
 }
 #centerRow {
