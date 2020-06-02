@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
@@ -16,14 +16,13 @@ body {
 .backgroundNav {
   position: fixed;
   width: 100%;
-  height: 7%;
-  background-image: linear-gradient(rgb(0,0,0,1), rgb(169,169,169,0.15));
+  height: 6%;
+  background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(169, 169, 169, 0.15));
   z-index: 1;
 }
-.navbar{
-  padding-bottom:0;
-  padding-top:0;
-
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .nav-link {
@@ -35,16 +34,16 @@ body {
 .navbar-brand {
   color: #c4e3f6;
   font-size: 1.5rem;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
-.navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover,
+.nav-link:hover {
   color: crimson;
 }
 
 .nav-item {
   margin-left: 5px;
-  /* background-color: crimson; */
   text-align: right;
   border-radius: 3em;
   font-weight: 500;
@@ -59,17 +58,12 @@ body {
   margin-top: 0.5em;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding-right: 0px;
   margin-right: 0px;
 }
 .navbar-toggler-icon:hover {
   color: crimson;
-}
-
-.inspiration-boxes-wrapper,
-.signup-button-wrapper {
-  margin-top: 10em;
 }
 
 .navbar-nav .nav-link {
@@ -82,56 +76,58 @@ body {
     border-radius: 3em;
     width: 32%;
     margin-bottom: 1em;
-
-
   }
 
   .nav-item {
     margin-bottom: 0.5em;
   }
-  .nav-link{
+  .nav-link {
     font-size: 1em;
   }
 }
 
 /* Schedule Info */
 
-.scheduleHead{
-
+.scheduleHead {
   padding-bottom: 3.5em;
   z-index: 1;
 }
 
-.head1{
-  font-size:3.5rem ;
+.head1 {
+  font-size: 3.5rem;
 }
 
-.head2{
-  font-size:2rem ;
+.head2 {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  .scheduleHead{
+  .scheduleHead {
     text-align: center;
 
     padding-right: 0em;
     padding-left: 1em;
   }
-  .head1{
-    font-size:2.5rem ;
+  .head1 {
+    font-size: 2.5rem;
   }
-  .head2{
-    font-size:1.2rem ;
+  .head2 {
+    font-size: 1.2rem;
   }
 }
 
 /* Card styling */
 
 .container {
-  margin: 15% auto 0 auto;
+  margin: 10% auto;
 }
+
+.row:last-child{
+  margin-bottom: 5%;
+}
+
 .card {
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 .card-text {
   text-align: center;
@@ -139,6 +135,86 @@ body {
   line-height: 2em;
 }
 
-.card:hover {
+.cardWrapper:hover {
   cursor: pointer;
+}
+
+button:focus span {
+  display: none;
+}
+
+
+/* CARD TEXT */
+#card1:focus:after{
+  content: "Alene";
+  background-color: white;
+}
+#card2:focus:after{
+  content: "Volim";
+  background-color: white;
+}
+#card3:focus:after{
+  content: "Te";
+  background-color: white;
+}
+#card4:focus:after{
+  content: "Jako";
+  background-color: white;
+}
+#card5:focus:after{
+  content: "Ali te svejedno";
+  background-color: white;
+}
+#card6:focus:after{
+  content: "nabijem na @media";
+  background-color: white;
+}
+/* CARD TEXT END */
+
+
+button:focus {
+  color: black;
+  background-color: white;
+}
+
+button{
+  padding: 0;
+  border-width: 0;
+}
+
+.card{
+  padding: 0;
+}
+/* added margin because of breakpoints */
+@media (max-width: 575px){
+  .cardWrapper{
+    margin-bottom: 2em;
+  }
+  button:focus{
+    height: 20rem;
+  }
+}
+
+@media (min-width: 576px) {
+  button:focus{
+    height:195px ;
+  }
+}
+
+@media (min-width: 768px) {
+  button:focus{
+    height:210.417px ;
+  }
+}
+
+@media(min-width: 992px) {
+  button:focus{
+    height:280px ;
+  }
+}
+
+@media(min-width: 1200px) {
+  button:focus{
+    height:330px ;
+  }
 }

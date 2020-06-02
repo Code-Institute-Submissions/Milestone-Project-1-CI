@@ -10,7 +10,10 @@
 
     <meta name="generator" content="Jekyll v4.0.1" />
     <title>Feel The Burn Gym</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
       rel="stylesheet"
@@ -19,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -29,8 +33,9 @@
   </head>
   <body class="d-flex flex-column h-100">
     <!-- Navbar -->
-
     <header>
+      <div class="backgroundNav"></div>
+
       <nav class="navbar navbar-center navbar-expand-md fixed-top">
         <div class="order-0">
           <a class="navbar-brand" href="home.html">FTB Gym</a>
@@ -66,7 +71,7 @@
 
     <!-- Form  -->
 
-    <form id="signUpForm">
+    <form id="signUpForm" action="#">
       <div class="form-group">
         <label for="firstName">First Name</label>
         <input
@@ -121,16 +126,14 @@
         <input type="checkbox" class="form-check-input" id="userConsent" />
         <label class="form-check-label" for="userConsent"
           >Check this box if you agree with our
-          <a
-            id="baba"
-            href="https://www.w3schools.com/html/default.asp"
-            target="_blank"
-            >Terms of Service</a
-          ></label
+          <a id="tosLink" href="#" target="_blank">Terms of Service</a></label
         >
       </div>
+
       <div class="form-button-wrapper row justify-content-center">
-        <button type="submit" class="btn btn-danger col-lg-3">Submit</button>
+        <button type="submit" class="btn btn-danger col-lg-3">
+          <span>Submit</span>
+        </button>
       </div>
     </form>
   </body>
@@ -149,4 +152,6 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"
   ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

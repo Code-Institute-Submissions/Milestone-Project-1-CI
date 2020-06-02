@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
     url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
@@ -16,14 +16,13 @@ body {
 .backgroundNav {
   position: fixed;
   width: 100%;
-  height: 7%;
-  background-image: linear-gradient(rgb(0,0,0,1), rgb(169,169,169,0.15));
+  height: 6%;
+  background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(169, 169, 169, 0.15));
   z-index: 1;
 }
-.navbar{
-  padding-bottom:0;
-  padding-top:0;
-
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .nav-link {
@@ -35,10 +34,11 @@ body {
 .navbar-brand {
   color: #c4e3f6;
   font-size: 1.5rem;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
-.navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover,
+.nav-link:hover {
   color: crimson;
 }
 
@@ -59,7 +59,7 @@ body {
   margin-top: 0.5em;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding-right: 0px;
   margin-right: 0px;
 }
@@ -82,60 +82,69 @@ body {
     border-radius: 3em;
     width: 32%;
     margin-bottom: 1em;
-
-
   }
 
   .nav-item {
     margin-bottom: 0.5em;
   }
-  .nav-link{
+  .nav-link {
     font-size: 1em;
   }
 }
 
-#jumbotron {
+/* Callout styling */
 
-  /* background-color: #fa4848; */
-  background-image: linear-gradient(rgb(218, 42, 42, 1), rgba(196, 91, 91, 0.5));
+#jumbotron {
+  background-image: linear-gradient(
+    rgb(218, 42, 42, 1),
+    rgba(196, 91, 91, 0.7)
+  );
   color: #c4e3f6;
   text-align: center;
   margin-top: 25%;
   z-index: 1;
   border-radius: 1.5em;
-  padding:1em ;
+  padding: 1em;
+}
+h1 {
+color: cyan;
+
 }
 
 @media screen and (max-width: 768px) {
-  .inspiration-box{
-    font-size:0.95rem ;
+  .inspiration-box {
+    font-size: 0.95rem;
   }
-#jumbotron p,#jumbotron h1{
-  font-size: 1.35rem;
-
-
-}
-#jumbotron{
-  padding-bottom: 0.20em;
-}
-
-
+  #jumbotron p,
+  #jumbotron h1 {
+    font-size: 1.35rem;
+  }
+  #jumbotron {
+    padding-bottom: 0.2em;
+  }
 }
 
+.leLink {
+  text-decoration: none;
+}
+
+.leLink:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
 
 .inspiration-box {
   margin: 2em;
   /* background-color: #fa4848;
   color: #cfe683; */
-  background-image: linear-gradient(rgb(218, 42, 42), rgba(196, 91, 91, 0.35));
+  background-image: linear-gradient(rgb(218, 42, 42), rgba(196, 91, 91, 0.6));
   color: #c4e3f6;
   border-radius: 3.5em;
   text-align: center;
-  /* font-family: "Playfair Display", serif; */
   height: 120px;
 }
 #centerRow {
-  margin-bottom:2.5em;
+  margin-bottom: 2.5em;
 }
 
 .inspiration-box a:hover {
@@ -147,6 +156,8 @@ body {
   border-style: none;
   color: #f7a62d;
 }
+
+/* Button styling */
 
 .signup-button-wrapper {
   margin: 1em auto;
@@ -164,12 +175,4 @@ body {
   background-color: #c4e3f6;
   border-style: none;
   color: #361559;
-}
-
-#scheduleLink {
-  text-decoration: none;
-}
-
-#scheduleLink:hover {
-  cursor: pointer;
 }

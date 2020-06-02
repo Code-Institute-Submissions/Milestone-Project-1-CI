@@ -1,38 +1,53 @@
 html,
 body {
-  font-family: "Cinzel", serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+  font-family: "Comfortaa", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("https://wnbfcanada.ca/wp-content/uploads//2015/01/empty-gym.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
   z-index: -1;
+  color: #c4e3f6;
 }
 
 /* Navbar styling */
+.backgroundNav {
+  position: fixed;
+  width: 100%;
+  height: 6%;
+  background-image: linear-gradient(rgb(0, 0, 0, 1), rgb(169, 169, 169, 0.15));
+  z-index: 1;
+}
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
 
 .nav-link {
   font-size: 1.4rem;
   font-weight: 400;
-  color: crimson;
+  color: #c4e3f6;
 }
 
 .navbar-brand {
-  color: lightgrey;
+  color: #c4e3f6;
   font-size: 1.5rem;
+  font-family: "Cinzel", serif;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-link:hover {
   color: crimson;
 }
 
 .nav-item {
   margin-left: 5px;
-  background-color: lightgrey;
-  text-align: center;
+  /* background-color: crimson; */
+  text-align: right;
   border-radius: 3em;
+  font-weight: 500;
 }
 
 .navbar-nav .nav-link {
@@ -40,8 +55,13 @@ body {
 }
 
 .navbar-toggler-icon {
-  color: lightgray;
+  color: #c4e3f6;
   margin-top: 0.5em;
+}
+
+.navbar-toggler {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 .navbar-toggler-icon:hover {
   color: crimson;
@@ -67,4 +87,33 @@ body {
   .nav-item {
     margin-bottom: 0.5em;
   }
+  .nav-link {
+    font-size: 1em;
+  }
+}
+
+/* About */
+
+#aboutContainer{
+   margin-top: 7em;
+
+}
+p{
+  text-align: justify;
+}
+
+.inspiration-boxes-wrapper{
+  margin-top: 5em;
+}
+.inspiration-boxes-wrapper:first-child{
+  margin-top: 3em;
+}
+
+.inspiration-boxes-wrapper:last-child{
+  margin-bottom:5em;
+}
+
+.divImage{
+  border-radius: 1em;
+  box-shadow: 3px 3px 2px #c4e3f6;
 }
