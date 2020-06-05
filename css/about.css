@@ -94,26 +94,25 @@ body {
 
 /* About */
 
-#aboutContainer{
-   margin-top: 7em;
-
+#aboutContainer {
+  margin-top: 7em;
 }
-p{
+p {
   text-align: justify;
 }
 
-.inspiration-boxes-wrapper{
+.inspiration-boxes-wrapper {
   margin-top: 5em;
 }
-.inspiration-boxes-wrapper:first-child{
+.inspiration-boxes-wrapper:first-child {
   margin-top: 3em;
 }
 
-.inspiration-boxes-wrapper:last-child{
-  margin-bottom:5em;
+.inspiration-boxes-wrapper:last-child {
+  margin-bottom: 5em;
 }
 
-.divImage{
+.divImage {
   border-radius: 1em;
   box-shadow: 3px 3px 2px #c4e3f6;
 }

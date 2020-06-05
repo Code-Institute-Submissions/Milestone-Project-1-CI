@@ -107,8 +107,7 @@ body {
   padding: 1em;
 }
 h1 {
-color: cyan;
-
+  color: cyan;
 }
 
 @media screen and (max-width: 768px) {
