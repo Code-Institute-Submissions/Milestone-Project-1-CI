@@ -53,6 +53,7 @@ The most interesting solution to a problem with unresponsiveness after intruduci
 
 ## Deployment
 
+Followed the official [Github Pages documentation](https://help.github.com/en/github/working-with-github-pages) to deploy the final product.
 
 ### Media
 - The photos used in this site were obtained from [Pxfuel](https://www.pxfuel.com/)
