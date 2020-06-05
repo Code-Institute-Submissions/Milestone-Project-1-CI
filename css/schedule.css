@@ -139,7 +139,7 @@ body {
   cursor: pointer;
 }
 
-button:focus span {
+.buttonDescription:focus span {
   display: none;
 }
 
@@ -189,12 +189,12 @@ button:focus span {
 }
 /* CARD TEXT END */
 
-button:focus {
+.buttonDescription:focus {
   color: black;
   background-color: white;
 }
 
-button {
+.buttonDescription {
   padding: 0;
   border-width: 0;
 }
@@ -207,31 +207,31 @@ button {
   .cardWrapper {
     margin-bottom: 2em;
   }
-  button:focus {
+  .buttonDescription:focus {
     height: 20rem;
   }
 }
 
 @media (min-width: 576px) {
-  button:focus {
+  .buttonDescription:focus {
     height: 195px;
   }
 }
 
 @media (min-width: 768px) {
-  button:focus {
+  .buttonDescription:focus {
     height: 210.417px;
   }
 }
 
 @media (min-width: 992px) {
-  button:focus {
+  .buttonDescription:focus {
     height: 280px;
   }
 }
 
 @media (min-width: 1200px) {
-  button:focus {
+  .buttonDescription:focus {
     height: 330px;
   }
 }
