@@ -1,6 +1,6 @@
 # FTB Gym
 
-This project was designed to provide a static, functioning, and scalable website for a small bussines. In this instance it is geared towards a public gym (any public gym). I wanted to illustrate the flexibility of the design by not putting to much emphasis on the content itself but to rather showcase the functionality and the aesthetic appeal it can provide. As it was mandatory that the website is static it did have it's limitations. Believing that I have circumvented the limitations with the best of my ability I present to you the final product.
+This project was designed to provide a static, functioning, and scalable website for a small bussines. In this instance it is geared towards a public gym (any public gym). I wanted to illustrate the flexibility of the design by not putting too much emphasis on the content itself but to rather showcase the functionality and the aesthetic appeal it can provide. As it was mandatory that the website is static it did have it's limitations. Believing that I have circumvented the limitations with the best of my ability I present to you the final product.
 
 
 ## UX
@@ -49,7 +49,7 @@ Carefully tested various breakpoints to ensure a scalable experience.
 Tested the form page to try and predict possible inputs or lack thereof, adjusting error messages accordingly.
 Also made sure that the Submit button won't work without sufficient input.
 
-The most interesting solution to a problem with unresponsiveness after intruducing media queries in the schedule page was remembering that html and css are read top to bottom so the order of the breakpoints actually plays a significant role
+The most interesting solution to a problem with unresponsiveness after intruducing media queries in the schedule page was remembering that html and css are read top to bottom so the order of the breakpoints actually plays a significant role.
 
 ## Deployment
 

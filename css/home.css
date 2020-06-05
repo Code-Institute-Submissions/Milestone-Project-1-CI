@@ -44,7 +44,6 @@ body {
 
 .nav-item {
   margin-left: 5px;
-  /* background-color: crimson; */
   text-align: right;
   border-radius: 3em;
   font-weight: 500;
@@ -134,8 +133,6 @@ h1 {
 
 .inspiration-box {
   margin: 2em;
-  /* background-color: #fa4848;
-  color: #cfe683; */
   background-image: linear-gradient(rgb(218, 42, 42), rgba(196, 91, 91, 0.6));
   color: #c4e3f6;
   border-radius: 3.5em;
